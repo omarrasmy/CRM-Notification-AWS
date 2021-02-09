@@ -3,7 +3,7 @@ require('dotenv').config({ path: './configurations/dev.env' })
 const path =require('path')
 const AWSUpload = require('./Routes/awsrequest')
 const Notification =  require('./Routes/notification');
-
+console.log("test")
 
 const app = express()
 app.use((req, res, next) => {
